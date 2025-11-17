@@ -361,3 +361,28 @@ footer a {
   max-width: 80%;
   text-shadow: none !important; 
 }
+@media (max-width: 768px) {
+    .registration-form-container {
+        padding: 15px;
+        margin: 10px;
+    }
+    .registration-form label,
+    .registration-form input[type="text"],
+    .registration-form input[type="number"],
+    .registration-form input[type="email"],
+    .registration-form select {
+        width: 100%; 
+        box-sizing: border-box; 
+        margin-bottom: 10px;
+        display: block; 
+    }
+
+    h2.grey-box-title {
+        font-size: 1.5em;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 12px;
+    }
+}
