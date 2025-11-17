@@ -376,6 +376,7 @@ footer a {
         margin-bottom: 10px;
         display: block; 
     }
+}
 
     h2.grey-box-title {
         font-size: 1.5em;
@@ -385,4 +386,24 @@ footer a {
         width: 100%;
         padding: 12px;
     }
-}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 3em !important; 
+        line-height: 1.1;
+    }
+    
+ 
+    h2 {
+        font-size: 1.8em !important; 
+    }
+
+    section {
+        padding: 30px 15px; 
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }}
